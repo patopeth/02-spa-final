@@ -24,9 +24,4 @@ termino: string;
        this.heroes = this._heroesService.buscarHeroes(params['termino']);
     });
   }
-
-  verHeroe(id: number) {
-    this._router.navigate(['/heroe', id]);
-  }
-
 }
